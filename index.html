@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+
+    <div class="main-container">
+        <main role="main">
+            <h1 class="main-title">Currency Converter</h1>
+
+            <div class="amount">
+                <p class="amount-title">Enter Amount</p>
+                <input class="amount-placeholder" type="text"  value="100" ></input>
+            </div>
+
+            <div class="select-main-container">
+                <div class="select-secondary-container">
+                    <p class="select-title">From</p>
+                <div class="select">
+                    <img class="img" src="https://flagsapi.com/US/flat/64.png">
+                <select class="select-dropdown" name="from ">
+                    <option value="USD">USD</option>
+                    <option value="NRP">NRP</option>
+                    <option value="INR">INR</option>
+                    <option value="EUR">EUR</option>
+                </select>
+                </div>
+                </div>
+
+                <div class="arrow"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+
+                <div class="select-secondary-container">
+                    <p class="select-title">To</p>
+                    <div class="select">
+                        <img  class="img" src="https://flagsapi.com/NP/flat/64.png">
+                <select class="select-dropdown" name="from ">
+                    <option value="NRP">NRP</option>
+                    <option  value="USD">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="EUR">EUR</option>
+                </select>
+                </div>
+                    </div>
+            </div>
+
+            <div class="msg">1 USD = 160 NRP</div>
+
+            <button class="exchange-btn">Get Exchange Rate</button>
+
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
 </body>
 </html>
