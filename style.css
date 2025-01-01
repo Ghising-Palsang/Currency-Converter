@@ -23,7 +23,7 @@ body{
 }
 
 .main-container{
-    background-color:#a2d2ff ;
+    background-color: aliceblue;
     min-height: 50vh;
     max-width:100%;
     padding:2em;
@@ -36,6 +36,9 @@ body{
 .amount-placeholder{
     height: 40px;
     width: 100%;
+    border-radius: 5px;
+    border:1px solid black;
+    padding-left:1em;
 }
 
 .select-main-container{
@@ -57,10 +60,25 @@ body{
 }
 
 .select-dropdown{
-    background-color:#a2d2ff ;
+    background-color: aliceblue;
     border: none;
+    cursor: pointer;
 }
 
+
+.msg{
+    margin: 1em 0;
+}
+
+.exchange-btn{
+    height: 35px;
+    width: 100%;
+    border:1px solid black;
+    border-radius: 5px;
+   background-color: #6a994e;
+   color:white;
+   cursor: pointer;
+}
 
 
 
