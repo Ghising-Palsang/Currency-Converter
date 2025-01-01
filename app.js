@@ -52,7 +52,7 @@ btn.addEventListener("click",async (evt)=>{
    let rate = data[toCurr.value.toLowerCase()];
 
    let finalAmt = amount * rate;
-   msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmt}${toCurr/value}`;
+   msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmt}${toCurr.value}`;
    
 })
 
